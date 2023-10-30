@@ -1,10 +1,10 @@
-# Testing and Evaluation:
+# Handwritten Word Recognition for Indic Languages
 
 ## Dataset preparation:
 - Please follow README under "create_lmdb_dataset" folder
 
 ## Pretrained Models:
-- You can find the pretrained models for V4 printed for 13 languages under the [Assets](https://github.com/NLTM-IIITH/OCR-V4/releases/tag/v4).
+- You can find the pretrained models for V3 printed for 14 languages under the [Assets](https://github.com/NLTM-IIITH/OCR-V3/releases/tag/v3).
 
 ## Setup
 - Using Python = 3.10+
@@ -26,3 +26,16 @@ python3 lang_train.py --mode test --lang bengali --valRoot  bengali/test_lmdb --
 ## Contact
 
 You can contact **[Ajoy Mondal](mailto:ajoy.mondal@iiit.ac.in)** for any issues or feedbacks.
+
+## Citation
+
+```
+@InProceedings{iiit_hw,
+	author="Gongidi, Santhoshini and Jawahar, C. V.",
+	editor="Llad{\'o}s, Josep and Lopresti, Daniel and Uchida, Seiichi",
+	title="iiit-indic-hw-words: A Dataset for Indic Handwritten Text Recognition",
+	booktitle="Document Analysis and Recognition -- ICDAR 2021",
+	year="2021",
+	pages="444--459"
+}
+```
