@@ -4,7 +4,7 @@
 - Please follow README under "create_lmdb_dataset" folder
 
 ## Pretrained Models:
-- You can find the pretrained models for V3 handwritten for 14 languages under the [Assets](https://github.com/NLTM-IIITH/OCR-V3/releases/tag/v3).
+- You can find the pretrained models for V3 handwritten for 14 languages under the [Assets](https://github.com/NLTM-OCR/OCR-V3/releases/tag/v3).
 
 ## Setup
 - Using Python = 3.10+
